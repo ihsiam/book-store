@@ -53,17 +53,7 @@ exports.getBookData = async (req, res) => {
 }
 
 
-// get adminwise book
-exports.getBookDataByAdmin = async (req, res) => {
-     try {
-        const books = await Book.find({ adminId: req.params.id });
-        res.status(200).json(books);
-    } catch (err) {
-        res.status(500).json({
-            error: 'There was a server side error!',
-        });
-    }
-}
+
 
 
 // Update a book
