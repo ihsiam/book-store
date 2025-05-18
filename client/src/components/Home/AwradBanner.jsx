@@ -10,7 +10,7 @@ export default function AwradBanner() {
         </h1>
         <Link to="/about">
           <button className="bg-blue-600 px-4 md:px-6 py-2 md:py-3 w-fit text-white font-bold rounded">
-            About Us
+            About
           </button>
         </Link>
       </div>
