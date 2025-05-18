@@ -53,6 +53,7 @@ exports.getBookData = async (req, res) => {
 }
 
 
+
 // get adminwise book
 exports.getBookDataByAdmin = async (req, res) => {
      try {
@@ -64,7 +65,6 @@ exports.getBookDataByAdmin = async (req, res) => {
         });
     }
 }
-
 
 // Update a book
 exports.UpdateBook = async (req, res) => {
